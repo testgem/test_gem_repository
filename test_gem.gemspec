@@ -4,14 +4,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "test_gem/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "test_gem"
+  spec.name          = "test_gem2_dh"
   spec.version       = TestGem::VERSION
   spec.authors       = ["test authors"]
   spec.email         = ["test@test.com"]
 
   spec.summary       = %q{test summary}
   spec.description   = %q{test desciption}
-  spec.homepage      = "TODO: test gem"
+  spec.homepage      = ""
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
